@@ -1,0 +1,258 @@
+:global(.card) {
+    padding: 16px 20px;
+    /* antes seguro era 32px */
+}
+
+.wrap {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+.title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+
+
+
+.search {
+    flex: 1;
+    padding: 10px 12px;
+    border: 1px solid var(--sh-border);
+    border-radius: 8px;
+}
+
+.pager {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.badge {
+    background: var(--sh-blue-300);
+    color: var(--sh-blue-700);
+    border-radius: 999px;
+    padding: 4px 10px;
+    font-weight: 600;
+}
+
+.modalBox {
+    min-width: 320px;
+    max-width: 380px;
+    text-align: center;
+}
+
+.modalActions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.confirmBtn {
+    background: var(--sh-blue-700);
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.cancelBtn {
+    background: transparent;
+    border: 1px solid var(--sh-border);
+    padding: 8px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+
+button:hover {
+    background: #3D5568;
+    color: #fff;
+}
+
+.printButton {
+    padding: 8px 14px;
+    border-radius: 8px;
+    border: 1px solid var(--sh-blue-700);
+    background: white;
+    color: var(--sh-blue-700);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.printButton:hover {
+    background: var(--sh-blue-700);
+    color: white;
+}
+
+.tableContainer {
+    max-width: 950px;
+    /* 🔥 límite horizontal */
+    margin: 0 auto;
+    /* centrar */
+}
+
+.tableScroll {
+    border-radius: 12px;
+}
+
+table {
+    font-size: 14px;
+}
+
+th,
+td {
+    padding: 8px 10px;
+}
+
+.actions {
+    display: flex;
+    gap: 6px;
+}
+
+.iconButton {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  border: 1px solid var(--sh-border);
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.iconButton:hover {
+  background: var(--sh-blue-700);
+  color: white;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+
+.filters {
+    display: flex;
+    gap: 10px;
+}
+
+.inputGroup {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    border: 1px solid var(--sh-border);
+    padding: 6px 10px;
+    border-radius: 8px;
+    background: white;
+}
+
+.inputGroup input {
+    border: none;
+    outline: none;
+    width: 160px;
+    font-size: 14px;
+}
+
+.actionsBar {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.badge {
+  padding: 4px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.pendiente {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.confirmado {
+  background: #d4edda;
+  color: #155724;
+}
+
+.cancelado {
+  background: #f8d7da;
+  color: #721c24;
+}
+.pager {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.pager button {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid var(--sh-border);
+  background: white;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: column;
+  margin-bottom: 20px;
+}
+
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modalContent {
+  background: var(--sh-white);
+  width: 100%;
+  max-width: 480px;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+.warning {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.modalActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.primary {
+  background: var(--sh-blue-700);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
