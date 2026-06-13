@@ -10,7 +10,7 @@ El sistema fue diseñado para centralizar operaciones internas mediante una inte
 
 ## Pantalla principal
 
-![Home](./images/home.png)
+![Home](./images/home-bkof.png)
 
 ## Alta de usuarios
 
